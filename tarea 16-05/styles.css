@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.entry-title{
+    width: 1000px;
+    padding-top: 130px;
+}
+
+.contentFlex{
+    margin-left: 10px !important;
+    padding-top: 130px;
+}
+
+/*HEADER BLANCO*/
+.header_blanco{
+    background-color: white;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    color: black;
+    font-size: 12px;
+    font-family:'Velino-Sans-Book',Arial,Helvetica,sans-serif;
+    padding: 8px 33px;
+    display: flex;
+    
+    
+}
+#datetime{
+    margin-right: 5px;
+    font-size:12px ;
+}
+nav{
+    float:right;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 8px ;
+}
+/* HEADER NEGRO */
+.header_negro{
+
+    background-color: black;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: flex;
+    color: azure;
+    height: 50px;
+    padding: 10px 0;
+}
+nav{
+    float:right;
+}
+
+#boton-suscripcion{
+   color: azure;
+    background: red;
+    font-size: 14px;
+    font-family: 'Velino-Sans-Bold',Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    width: 160px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-left: 750px;
+}
+#boton-sesion{
+    color: azure;
+    background-color: black;
+    border-color: azure;
+    border-radius: 4px;
+    border: 1px solid;
+    width: 110px;
+    height: 32px;
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2{
+    width: auto;
+}
+
+#logo-clarin{
+    width: 95px;
+    margin-top: 0px;
+}
+#h2-Deportes{
+    font-family: 'Velino-Headline-Bold',Georgia,'Times New Roman',Times,serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 200px;
+    margin-left: 150px;
+}
+/*HEADER GRIS*/
+.header_gris{
+    background-color: #CFCFCF;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: flex;
+    color: black;
+    font-size: 17px;
+    font-family:'Velino-Headline-Book',Georgia,'Times New Roman',Times,serif;
+    margin: 2px 0px 0px;
+    padding: 13px 0px 13px 33px;
+    
+}
+nav{
+    float:right;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 11px ;
+}
+/*BODY*/
+.propaganda1{
+    width: 1269x;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 0;
+}
+
+img{
+    border-top: 10px;
+}
+.noticia{
+    margin-top: 200px;
+    margin-left: 70px;
+    margin-right: 925px;
+}
+#titulorojo{
+    color:#cc001b;
+    font-size: 46px;
+    font-family: 'Velino-Headline-Book',Georgia,'Times New Roman',Times,serif;
+    margin-right: 150px;
+    margin-left: 70px;
+    
+}
+
+#titulo{
+    font-size: 46px;
+    font-weight: inherit !important;
+    margin-bottom: 30px;
+    line-height: 48px;
+    margin-left: 70px;
+    margin-right: 430px;
+}
+#descripcion{
+    /*color:#c1c1c1;
+    font-size: 22px;
+    font-family: 'Velino-Headline-Book',Georgia,'Times New Roman',Times,serif;
+    margin-left: 150px;
+    margin-right: 925px;
+    margin-bottom: 30px;*/
+
+    font-family: 'Velino-Headline-Book',Georgia,'Times New Roman',Times,serif;
+    font-size: 22px;
+    color: #c1c1c1;
+    margin-bottom: 30px;
+    font-weight: normal;
+    margin-left: 70px;
+    margin-right: 330px;
+}
+.restoNoticias{
+   /* margin-left: 30px;
+    font-size: 20px;
+    color:#d80026;
+    font-family: 'Velino-Headline-Bold',Georgia,'Times New Roman',Times,serif;
+    list-style-type: circle;
+    margin-right: 925px;*/
+    font-family: 'Velino-Headline-Book',Georgia,'Times New Roman',Times,serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #d80026;
+    margin-bottom: 30px;
+    font-weight: normal;
+    list-style-type: circle;
+    margin-left: 70px;
+   
+}
+figcaption{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Velino-Headline-Bold',Georgia,'Times New Roman',Times,serif; ;
+}
+.abrazoEnzo{
+    /*width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    white-space: nowarp;
+    margin-left: 10px;*/
+    margin-left: 70px;
+    min-width: 300px;
+    max-width: 1200px;
+    width: calc(100% + 2px);
+    height: 500px;
+}
+figcaption{
+    margin-left: 10px;
+}
+.nivelado{
+    padding: 1em;
+}
+.fingcaption{
+    margin-left: 70px;
+}
+
+#noticia_larga {
+   /* font-size: 22px;
+    font-family: 'VelinoText-Book',Georgia,'Times New Roman',Times,serif;
+    margin-left: 150px;
+    line-height: 30px;
+    margin-right: 725px;*/
+    height: 100vh;
+    margin-left: 70px;
+
+    margin-right: 150px;
+}
+#noticia_larga strong u{
+    color: red;
+}
+
+.entry-title{
+    width: 100%;
+}
+
+
+/*PRUEBA*/
+@media screen and (max-width:391px) {
+    body #titulorojo{
+        font-size: 7.5vw;
+        line-height: 9.375vw;
+        margin-left: 15px;
+    }
+    .restoNoticias{
+  
+        font-size: 12px;
+        font-weight: normal;
+       
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+    #galeria-trigger{
+        margin-left: 27px;
+        margin-right: 15px;
+        
+    }
+    #noticia_larga{
+        font-size: 10px;
+        margin-left: 70px;
+
+        margin-right: 15px;
+    }
+}
+@media only screen and (max-width: 769px){
+    #noticia_larga {
+        font-size: 21px !important;
+        line-height: 30px;
+        margin-left: 0px !important;
+        margin-right: -100px !important;
+        
+    }
+    body #titulorojo{
+        font-size: 7.5vw;
+        line-height: 9.375vw;
+        margin-left: 15px !important;
+    
+    }
+
+    .fingcaption{
+        margin-left: -30px !important;
+        margin-right: -100px !important;
+    }
+
+    #titulo{
+        font-size: 7.5vw;
+        line-height: 9.375vw;
+        margin-left: 15px;
+        font-weight: normal;
+        width: 100%;
+        margin-right: 10px !important;
+    }
+    #descripcion{
+        font-size: 18px;
+        line-height: 25px;
+        margin-left: 15px;
+       
+        width: 100%;
+    }
+    body .news.newsNormal .entry-title {
+        padding: 0 12px;
+    }
+    .bajada{
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+    }
+    .restoNoticias{
+        /*margin-left: 15px;
+        font-size: 18px;*/
+        font-weight: normal;
+        width: 100%;
+        margin-right: 15px;
+
+    }
+    .imagenRiver .fingcaption{
+       width: 100%;
+       height: 100%;
+    }
+    #boton-sesion{
+        display: flex;
+    }
+    #boton-suscripcion{
+        display: flex;
+    }
+    /*.header_negro{
+        width: 12000px;
+        padding: 5px 48px;
+        position: fixed;
+        top: 0;
+        background: white;
+        border-bottom: #d5d5d5 solid 1px;   
+    }*/
+}
+
+@media screen and (max-width: 1280px){
+
+    .header_negro{
+        width: 100%;
+    }
+    .fingcaption{
+        margin-left: 300px;
+    }
+    .abrazoEnzo{
+        margin-left: 300px;
+    }
+
+    .entry-title{
+        margin-left: 150px;
+    }
+
+    #noticia_larga {
+        overflow-wrap: break-word;
+        font-size: 21px;
+        line-height: 30px;
+        margin-left: 300px;
+        margin-right: 200px;
+    }
+    body #titulorojo{
+        font-size: 50px;
+        line-height: 9.375vw;
+        margin-left: 150px;
+    }
+    #titulo{
+        font-size: 49px;
+        overflow-wrap: break-word;
+        margin-left: 150px;
+        font-weight: normal;
+        margin-right: 380px;
+    }
+    #descripcion{
+        font-size: 23px;
+        line-height: 25px;
+        margin-left: 150px;
+        margin-right: 350px;
+    }
+    body .news.newsNormal .entry-title {
+        padding: 0 12px;
+    }
+    .bajada{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .restoNoticias{
+        margin-left: 150px;
+        font-size: 13px;
+        font-weight: normal;
+        margin-right: 300px;
+    }
+    .imagenRiver .fingcaption{
+        margin-left: 150px;
+        font-size: 14px;
+    }
+    #boton-sesion{
+        display: flex;
+    }
+    #boton-suscripcion{
+        display: flex;
+    }
+}
+
+
+
+
+
+
